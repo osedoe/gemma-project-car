@@ -1,0 +1,38 @@
+# Gemma E46 Restoration Project - Git Ignore
+
+# Photo and Image Files (can be large)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.raw
+*.heic
+
+# Video Files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+
+# Large PDFs (workshop manuals, etc.)
+*.pdf
+
+# Temporary/Backup Files
+*~
+*.bak
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Editor Directories
+.vscode/
+.idea/
+
+# Keep photos directory structure but not the actual photos
+# (photos folder README.md will still be tracked)
